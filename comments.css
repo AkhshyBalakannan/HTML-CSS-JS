@@ -1,0 +1,72 @@
+html{
+    background-color: rgba(0, 0, 0, 0.888);
+    color: white;
+    transition: 1s
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+header{
+    margin: 20px;
+    text-align: center;
+}
+.feedbackandComment{
+margin: 5% 30%;
+border: 2px solid white;
+}
+.getFeedData input{
+    display: block;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    width: 100%;
+    margin-bottom: 2%;
+    padding-left: 10px;
+}
+.getFeedData  #comments{
+    margin: 5% 0%;
+}
+.getFeedData{
+    padding: 10% 10% 3% 10%;
+    text-align: center;  
+}
+button{
+    margin: 3% 0% 3% 2%;
+    padding: 5px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px ;
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+.footerbutton{
+    text-align: center;
+}
+button:hover{
+    padding: 5px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px ;
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+}
+button a:hover{
+    color: black;
+}
+table{
+    border: 2px solid white;
+    width: 96%;
+    padding: 2%;
+    margin: 2%;
+}
+th,td {
+    border: 2px solid white;
+}
+td{
+    padding-left: 2%;
+}

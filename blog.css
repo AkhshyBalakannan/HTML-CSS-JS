@@ -1,0 +1,27 @@
+.bbody{
+    padding: 1% 5%;
+}
+.anchors a{
+    color: red;
+}
+.anchors{
+    padding: 3% 0%;
+}
+img{
+    width: 100%;
+}
+button{
+    background-color: red;
+    color: white;
+    border-radius: 0.3em;
+}
+
+.dontShowContent{
+    display: none;
+}
+.showContent{
+    display: inline-block;
+}
+
+
+

@@ -1,0 +1,22 @@
+button {
+    color: white;
+    background-color: rgb(255, 78, 78);
+    font-size: 1em;
+    padding: 0.5rem 1em ;
+    border-radius: 8px;
+}
+button:hover{
+    cursor: grab;
+    color: white;
+    background-color: rgb(255, 0, 0);
+    font-size: 1em;
+    padding: 0.5rem 1em ;
+    border-radius: 8px;
+    transform: translateY(-5px);
+    box-shadow: 3px 3px 3px grey ;
+}
+.cbody{
+    color: grey;
+    padding: 0% 12%;
+    padding-bottom: 5%;
+}

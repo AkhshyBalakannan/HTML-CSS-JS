@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign UP page</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="signUp.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="heading">Basic Website Design</h1>
+        <h2>Create your BSD Account</h2>
+        <img src="Images\bwd.png" alt="login Image" class="loginImage">
+        <form class="loginPage">
+            <div class="setName">
+                <input type="text" name="firstName" id="firstName" placeholder="First Name">
+                <input type="text" name="lastName" id="lastName" placeholder="Last Name">
+            </div>
+            <div class="setusername">
+                <div>
+                    <input type="text" name="Username" class="userName" id="coin" placeholder="Username">
+                    <label class="attherateof" for="coin"> @bwd.co.in </label>
+                </div>
+            </div>
+            <div class="currentMail"><a href=" ">Use my current Email address</a></div>
+            <div class="setPassword">
+                <input type="password" name="pass" id="pass" placeholder="Password">
+                <input type="password" name="confirmpass" id="confirmpass" placeholder="Confirm">
+                <span class="disclaim">Use 8 or more characters with a mix of letters, numbers & symbols</span>
+            </div>
+            <div class="checkdiv">
+                <button type="button" class="checkbox" id="check"> </button>
+                <label for="check">Show Password</label>
+            </div>
+
+            <div class="bottom">
+                <a href="logIn.html" class="signininstead">Log In instead</a>
+                <button type="button" class="nextbutton">Next</button>
+            </div>
+        </form>
+    </div>
+    <script src="signUp.js"></script>
+
+</body>
+
+</html>

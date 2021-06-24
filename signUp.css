@@ -1,0 +1,127 @@
+body{
+    padding: 2% 20%;
+    background-image: url(Images/signup.jpg);
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    transition: 1s;
+}
+input{
+    border-radius: 5px;
+    padding:5px 0px 5px 10px;
+    border: 1px solid grey;
+    margin-right: 10px;
+}
+.container{
+    padding: 10px;
+    background-color: #e0fbfce3;
+    width: 800px;
+    height: fit-content;
+    border: 2px solid   #caf0f8;
+    border-radius: 10px;
+}
+.heading,h2{
+    font-weight: 500;
+}
+.setName,.setPassword,.checkdiv{
+    padding:20px ;
+}
+.setName input{
+    margin: 0px 10px 10px 0px;
+    padding-right: 20px;
+}
+.attherateof{
+    padding-right: 10px;
+}
+.setusername{
+    padding-left: 20px;
+}
+.setusername div{
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid   grey;
+    width: fit-content;
+}
+.setusername input{
+    border: none;
+    width: 285px;
+}
+.currentMail{
+    padding-top: 20px;
+    padding-left: 20px ;
+}
+.currentMail a{
+    font-weight: 800;
+    text-decoration: none;
+    border-top: 20px ;
+}
+.setPassword input{
+    margin: 0px 10px 10px 0px;
+    padding-right: 20px;
+}
+.setPassword span{
+    display: block;
+    font-size: 12px;
+    color: rgb(99, 99, 99);
+}
+.checkbox{  
+    width: 20px;
+    height: 20px;
+}
+.nextbutton{
+    border: 0px solid white;
+    padding: 7px 20px ;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #009dff;
+    color: cornsilk;
+    margin-left: 210px;
+}
+.signininstead{
+    font-size: 18px;
+    padding-left: 20px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.bottom{
+    padding:60px 0px ;
+}
+.loginImage{
+    position: absolute;
+    width:23rem ; 
+    transform: translate(450px) ;  
+}
+@media (min-width: 400px) and (max-width: 820px){
+    .setusername input{
+        width: fit-content;
+    }
+    .loginImage{
+        display: none;  
+    }
+}
+@media (min-width: 820px) and (max-width: 1200px){
+    .loginImage{
+        display: none;  
+    }
+}
+@media (min-width: 1200px) and (max-width: 1330px) {
+    .loginImage{
+        display:flex;
+        width:15rem;
+    }
+}
+@media  (min-width:1330px) and (max-width:1400px){
+    .loginImage{
+        display:flex;
+        width:20rem;
+    }
+}
+@media only screen and (min-width: 1400px)  {
+    .loginImage{
+        display: flex;     
+    }
+}
+
+
+

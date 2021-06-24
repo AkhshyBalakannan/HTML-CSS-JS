@@ -1,0 +1,88 @@
+body{
+    /* background-color: #3c6e71; */
+    background-image: url(Images/bg.jpg);
+    background-size: cover;
+    padding:2% 33%;
+}
+.body{
+    background-color: #ffffffe0;
+    text-align: center;
+    margin-bottom: 2%;
+    padding: 3%;
+    border: 1px solid grey;
+    font-family: 'Roboto', sans-serif;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.bodytwo{
+    background-color: #ffffffe0;
+    text-align: center;
+    margin-top: 2%;
+    padding: 3%;
+    border: 1px solid grey;
+    font-family: 'Roboto', sans-serif;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.title{
+    margin:7% 0% ;
+    color: #707274;
+    /* padding-bottom: 10%; */
+    font-size: 35px;
+    font-weight: 400;  
+}
+.userName, .userPass, .loginbutton{
+    display: block;
+    width: 100%;
+}
+input{
+    margin-top: 5%;
+    border: 1px solid grey;
+    padding:2% 0%;
+    height: 5%;   
+    border-radius: 5px;
+}
+.loginbutton{
+    font-weight: 600;
+    color: white;
+    border: none;
+    margin: 10% 0%;
+    font-size: 20px;
+    height: 35px;
+    background-color: #5fa8d3;
+    border-radius: 5px;
+}
+.socialaccount{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+    height: 35px;
+    background-color: inherit;
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Forgotpassword{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 100;
+    text-decoration: none;
+    color: rgb(39, 39, 39);
+}
+.form div span{
+    position: relative;
+    background-color: #ffffffe0;
+    padding: 0% 10%;
+    bottom: 20px;
+}
+.body2 span{
+    font-size: 17px;
+}
+.body2 span a{
+    font-weight: 600;
+    text-decoration: none;
+    color: #8d99ae;
+}
