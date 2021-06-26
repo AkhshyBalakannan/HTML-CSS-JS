@@ -7,14 +7,22 @@ const lastName = document.querySelector('#lastName');
 const reDirect = document.querySelector('.loginPage');
 let epd = true;
 let ufl = true;
-submitButton.addEventListener('click', function (e) {
+submitButton.addEventListener('click', (e) => {
+
     validatingForm(`${nameOfuser.value}`, `${firstName.value}`, `${lastName.value}`);
     personalData(`${userPassword.value}`, `${userConfirmPassword.value}`);
+
     if (!epd) {
-        document.querySelector('.nextbutton').type = 'submit';
+        submitButton.type = 'submit';
     }
+    else {
+        alert('Please fillout the red border box')
+        epd = true;
+        ufl = true;
+    }
+
 })
-personalData = (passwordvalue, repasswordvalue) => {
+personalData = function (passwordvalue, repasswordvalue) {
     if ((passwordvalue === repasswordvalue) && !(repasswordvalue === "") && !(passwordvalue === "")) {
         reDirect.action = 'home.html';
         if (ufl) {
@@ -33,7 +41,7 @@ personalData = (passwordvalue, repasswordvalue) => {
         }
     }
 }
-validatingForm = (userIDValue, FirstName, LastName) => {
+validatingForm = function (userIDValue, FirstName, LastName) {
     if (FirstName == "") {
         firstName.style.border = '2px solid red';
         ufl = false;

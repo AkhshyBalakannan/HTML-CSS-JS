@@ -1,9 +1,9 @@
 section{
     text-align: center;
-    background-image: url(Images/unsplash.jpg);
+    background-image: url(Images/tech.png);
     background-size: cover;
     width: 100%;
-    height: 40em;
+    height: 30em;
 }
 section h2 {
     background-color: #90e0ef;
@@ -46,14 +46,6 @@ section h3 {
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
-.classCheckLog #checkLog{
-    position: absolute;
-    margin-left: 800px;
-    background-color: grey;
-    width: 4em;
-    height: 2em;
-    color: honeydew; 
-}
 .lowMove{
     padding-left: 20px;
 }
@@ -62,21 +54,21 @@ section h3 {
 }
 @media screen and (max-width:1200px) {
     section{
-        height: 30em;
+        height: 27em;
     }    
 }
 @media  (max-width:1000) {
     section{
-     height: 25em;  
+     height: 22em;  
     }
 }
     @media  (max-width:800) {
         section{
-         height: 20em;
+         height: 15em;
         }
     }
         @media  (max-width:600) {
             section{
-             height: 15em;  
+             height: 10em;  
             }       
          }      

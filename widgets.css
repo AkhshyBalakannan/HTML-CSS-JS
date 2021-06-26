@@ -10,5 +10,10 @@
     padding: 2% ;
 }
 img{
-    display: flex;
+    width: 200px;
+    height: 175px;
+}
+.image{
+    width: 400px;
+    height: 450px;
 }

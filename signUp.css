@@ -4,21 +4,17 @@ body{
     background-size: cover;
     font-family: 'Open Sans', sans-serif;
     display: flex;
-    flex-wrap: wrap;
-    transition: 1s;
 }
 input{
     border-radius: 5px;
     padding:5px 0px 5px 10px;
     border: 1px solid grey;
-    margin-right: 10px;
 }
 .container{
     padding: 10px;
     background-color: #e0fbfce3;
     width: 800px;
-    height: fit-content;
-    border: 2px solid   #caf0f8;
+    border: 2px solid#caf0f8;
     border-radius: 10px;
 }
 .heading,h2{
@@ -65,10 +61,7 @@ input{
     font-size: 12px;
     color: rgb(99, 99, 99);
 }
-.checkbox{  
-    width: 20px;
-    height: 20px;
-}
+
 .nextbutton{
     border: 0px solid white;
     padding: 7px 20px ;
@@ -85,7 +78,8 @@ input{
     text-decoration: none;
 }
 .bottom{
-    padding:60px 0px ;
+    padding-top:20px;
+    padding-bottom: 10px;
 }
 .loginImage{
     position: absolute;
