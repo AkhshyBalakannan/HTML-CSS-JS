@@ -1,8 +1,8 @@
-var connecting = 'try'
+var connect = 'try '
 
 function connection() {
-    connecting += '.';
-    postMessage(connecting);
+    connect += '.';
+    postMessage(connect);
     setTimeout("connection()", 1000);
 }
 

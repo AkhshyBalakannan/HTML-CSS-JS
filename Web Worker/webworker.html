@@ -13,13 +13,13 @@
     <p>Status<output id="result"></output></p>
 
     <script>
-        let wrkr;   //WORKER VARIABLE
+        let work;   //WORKER VARIABLE
         function start() {
             if (typeof (Worker) !== "undefined") {  //WORKER SUPPORTED IN BOWSER
-                if (typeof (wrkr) == "undefined") {
-                    wrkr = new Worker("bgworker.js");
+                if (typeof (work) == "undefined") {
+                    work = new Worker("bgworker.js");
                 }
-                wrkr.onmessage = function (e) {
+                work.onmessage = function (e) {
                     document.querySelector("#result").innerHTML = e.data;
                 };
             } else {
@@ -28,8 +28,8 @@
         }
 
         function stop() {
-            wrkr.terminate();
-            wrkr = undefined;
+            work.terminate();
+            work = undefined;
         }
     </script>
 </body>
